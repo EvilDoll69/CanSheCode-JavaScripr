@@ -12,6 +12,3 @@ const hello = function() {
 const user  = function() {
   let userName = prompt("What is your name?")
 }
-
-user();
-hello();
