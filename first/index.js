@@ -108,17 +108,34 @@
 // }
 // timeSet();
 
-let statusUser = "nnn";
+// let statusUser = "nnn";
 
-switch (statusUser) {
-  case 'admin':
-    alert(`Hello, ADMIN!`);
-    break;
-  case 'user':
-    alert(`Hello User!`);
-    break;
-  default:
-    alert(`Who are you?`);
-    break;
-}
+// switch (statusUser) {
+//   case 'admin':
+//     alert(`Hello, ADMIN!`);
+//     break;
+//   case 'user':
+//     alert(`Hello User!`);
+//     break;
+//   default:
+//     alert(`Who are you?`);
+//     break;
+// }
+
+// let points = 10001;
+// let client = points > 10000 ? "Golden client" : "Silver client";
+
+// alert(client);
+
+// let apples = 5;
+// let amount = apples < 6 ? "You do not have enough apples" : "Bake it!";
+
+// alert(amount);
+
+// let question = prompt(`Would you like to earn more?`).toLowerCase();
+// let answer = question === 'yes' ? "Go to work!" : "You are lazy asshole!";
+// alert(answer);
+
+let iLoveHTML = "I love HTML";
+alert(iLoveHTML.replace("love", "hate"));
 
