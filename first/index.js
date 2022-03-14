@@ -50,3 +50,11 @@ const calcAge = function() {
 }
 
 calcAge();
+
+const calcSalary = function() {
+  let salaryPerWeek = prompt("What is your salary?");
+  let salaryPerDay = salaryPerWeek / 5;
+  alert(`Your salary per week is ${salaryPerWeek}$ and ${salaryPerDay}$ per day!`)
+};
+
+calcSalary();
