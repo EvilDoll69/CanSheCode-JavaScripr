@@ -136,6 +136,17 @@
 // let answer = question === 'yes' ? "Go to work!" : "You are lazy asshole!";
 // alert(answer);
 
-let iLoveHTML = "I love HTML";
-alert(iLoveHTML.replace("love", "hate"));
+// let iLoveHTML = "I love HTML";
+// alert(iLoveHTML.replace("love", "hate"));
+
+const parentHTML = document.querySelector('.container'); //getting parent from the HTML where we would like to append the child
+console.log(parentHTML);
+
+const heading = document.createElement('h2');
+// console.log(heading);
+
+heading.innerHTML = 'HELLO!';
+heading.classList.add('some-class') //adding class to element
+
+console.log(heading);
 
