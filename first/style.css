@@ -2,6 +2,18 @@ body {
   background-color: aquamarine;
 }
 
-.some-class {
-  color: purple;
+.hello {
+  color: #E45826;
+}
+
+.btn {
+  border: solid 5px #F0A500;
+  font-size: 30px;
+  color: #F10086;
+  border-radius: 13%;
+}
+
+.click-style {
+  color: #E83A14;
+  font-size: 50px;
 }
