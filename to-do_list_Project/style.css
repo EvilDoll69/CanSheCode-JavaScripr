@@ -11,6 +11,24 @@ body {
   width: 100%; */
 }
 
+h1 {
+  background: linear-gradient(#da1212, #000000);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+button {
+  /* background: linear-gradient(#da1212, #000000);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; */
+
+}
+
+.title {
+  font-size: 100px;
+  margin-top: 60px;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -18,5 +36,22 @@ body {
 }
 
 .input-field {
-  width: 50%;
+  width: 550px;
+  height: 60px;
+  border: none;
+  border-radius: 3%;
+}
+
+.btn {
+  width: 80px;
+  height: 60px;
+  margin-left: 20px;
+  /* margin-top: 60px; */
+  border-radius: 3%;
+  border: none;
+  font-size: 30px;
+  background: linear-gradient(#da1212, #000000);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
 }
