@@ -9,7 +9,9 @@ const addAction = btn.addEventListener("click", function() {
   listItem.appendChild(newItemInList);
   inputField.value = "";
 
-  newItemInList.addEventListener("dblclick", function() {
-    newItemInList.classList.add("crossed-text");
+  newItemInList.addEventListener("click", function() {
+    newItemInList.classList.add("crossed-item");
   })
+
+  
 })

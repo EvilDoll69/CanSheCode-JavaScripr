@@ -93,4 +93,7 @@ button {
 
 .crossed-item {
   text-decoration: line-through;
+  transition-duration: 3s;
+  transition-property: background-color;
+  background-color: aquamarine;
 }
