@@ -2,6 +2,9 @@ body {
   background-image: url("background.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 100vh;
+  background-position: center;
+  background-color:#da1212;
   font-family: "Bungee", cursive;
   font-family: "Kanit", sans-serif;
   font-family: "Montserrat", sans-serif;
@@ -10,6 +13,7 @@ body {
   /* height: 100%;
   width: 100%; */
 }
+
 
 h1 {
   background: linear-gradient(#da1212, #000000);
@@ -30,12 +34,15 @@ button {
 }
 
 .main-container {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
+  /* text-align: center; */
+  text-align: center;
 }
 
 .input-field {
+  font-size: 30px;
   width: 550px;
   height: 60px;
   border: none;
@@ -54,4 +61,36 @@ button {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.user-todo {
+  width: 50%;
+  height: 60px;
+  border: none;
+  border-radius: 3%;
+  background-color: white;
+  
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-item {
+  font-size: 30px;
+  margin-right: 100px;
+  width: 30%;
+  background-color: wheat;
+  height: 50px;
+  text-align: center;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.crossed-item {
+  text-decoration: line-through;
 }
